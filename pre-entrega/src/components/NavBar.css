@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 30px;
+    background-color: #0101fb;
+    color: white;   
+}
+
+.nombreTienda {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+.lista {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.lista a {
+    color: white;
+    font-size: 1rem;
+}
+.lista a:hover {
+    text-decoration: underline solid white;
+    text-underline-offset: 3px;
+}
+
+  .carrito {
+    font-size: 1rem;
+    background-color: white;
+    padding: 5px;
+  }
